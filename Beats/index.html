@@ -3,236 +3,255 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- LINKS -->
+    <link rel="stylesheet" href="style.css" />
     <title>Beats</title>
   </head>
   <body>
-    <!-- NAVIGATION -->
-    <nav>
-      <img src="./Photos/beatsLogo.png" alt="beatslogo" />
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Specs</a></li>
-        <li><a href="">Case</a></li>
-        <li><a href="">Products</a></li>
-      </ul>
-      <button>Shop</button>
-    </nav>
-    <!-- MAIN SECTION -->
-    <main>
-      <div><img src="./Photos/mainImage.png" alt="mainimg" /></div>
-      <div>
-        <img src="./Photos/onEar.png" alt="onEar" />
-        <h1>Beats 3</h1>
-        <p>Overview</p>
-        <p>
-          Enjoy award-winning Beats sound with wireless listening freedom and a
-          sleek, streamlined design with comfortable padded earphones,
-          delivering first-rate playback.
-        </p>
-        <div>
-          <img src="./Icons/shoppingBag.png" alt="add-bag" />
-          <p>Add to Bag</p>
-          <p>N399K</p>
-        </div>
-      </div>
-    </main>
+    <div class="container">
+      <!-- NAVIGATION -->
+      <nav>
+        <img src="./Photos/beatsLogo.png" alt="beatslogo" />
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Specs</a></li>
+          <li><a href="">Case</a></li>
+          <li><a href="">Products</a></li>
+        </ul>
+        <button>Shop</button>
+      </nav>
 
-    <!-- SOCIAL MEADIA SECTION -->
-    <section>
-      <img src="./Photos/appleLogo.png" alt="appleLogo" />
-      <img src="./Photos/spotifyLogo.png" alt="spotifyLogo" />
-      <img src="./Photos/amazonLogo.png" alt="amazonLogo" />
-      <img src="./Photos/youtubeLogo.png" alt="youtubeLogo" />
-    </section>
+      <!-- MAIN SECTION -->
+      <main>
+        <img class="main-pic" src="./Photos/mainImage.png" alt="mainimg" />
 
-    <!-- SPECS SECTION -->
-    <section>
-      <img src="./Icons/specsLogo.png" alt="specsImage" />
-      <!-- contatin -->
-      <div>
-        <!-- left contain -->
-        <div>
-          <div>
-            <img src="./Icons/bluetooth.png" alt="bluetooth" />
-            <p>Connection</p>
-            <p>Bluetooth v5.2</p>
-          </div>
-          <div>
-            <img src="./Icons/battery.png" alt="battery" />
-            <p>Battery</p>
-            <p>Duration 40h</p>
-          </div>
-          <div>
-            <img src="./Icons/charger.png" alt="charger" />
-            <p>Load</p>
-            <p>Fast Charge 4.2-AAC</p>
-          </div>
-          <div>
-            <img src="./Icons/mic.png" alt="mic" />
-            <p>Microphone</p>
-            <p>Supports Apple Siri and Google</p>
-          </div>
-        </div>
-        <!-- right contain -->
-        <div>
-          <img src="./Photos/specsImage.png" alt="specsImage" />
-        </div>
-      </div>
-    </section>
-
-    <!-- CASE SECTION -->
-    <section>
-      <img src="./Icons/caseLogo.png" alt="caseImage" />
-      <!-- case container -->
-      <div>
-        <!-- right container -->
-        <div>
-          <img src="./Photos/caseImage.png" alt="caseImage" />
-        </div>
-        <!-- left container -->
-        <div>
-          <p>
-            With a comfortable and adaptable case so that you can store it
-            whenever you want, and keep your durability forever.
+        <div class="main-content">
+          <img class="on-Ear" src="./Photos/onEar.png" alt="onEar" />
+          <h1 class="heading">Beats 3</h1>
+          <p class="overview">Overview</p>
+          <p class="def">
+            Enjoy award-winning Beats sound with wireless listening freedom and
+            a sleek, streamlined design with comfortable padded earphones,
+            delivering first-rate playback.
           </p>
-          <div>
-            <img src="./Icons/group.png" alt="infologo" />
-            <p>More Info</p>
+          <div class="add-bag-btn">
+            <img
+              class="shopping-Bag"
+              src="./Icons/shoppingBag.png"
+              alt="add-bag"
+            />
+            <p class="add-bag">Add to Bag</p>
+            <p class="mod-no">N399K</p>
           </div>
         </div>
-      </div>
-    </section>
+      </main>
 
-    <!-- BUY NOW SECTION -->
-    <section>
-      <!-- left  -->
-      <div>
-        <p>Immense yourself in your music</p>
-        <p>Buy Now, up to 40% off.</p>
-        <div>
-          <img src="./Icons/shoppingBag.png" alt="shoppingBag" />
-          <p>Buy Now</p>
-        </div>
-      </div>
-      <!-- right -->
-      <div>
-        <img src="./Photos/buyNowSectionImage.png" alt="" />
-      </div>
-    </section>
+      <!-- SOCIAL MEADIA SECTION -->
+      <section class="media-section">
+        <img src="./Photos/appleLogo.png" alt="appleLogo" />
+        <img src="./Photos/spotifyLogo.png" alt="spotifyLogo" />
+        <img src="./Photos/amazonLogo.png" alt="amazonLogo" />
+        <img src="./Photos/youtubeLogo.png" alt="youtubeLogo" />
+      </section>
 
-    <!-- PRODUCT SECTION -->
-    <section>
-      <img src="./Icons/productLogo.png" alt="productLogo" />
-      <!-- PRODUCTS CONTAINER -->
-      <div>
-        <!-- items 1-->
-        <div>
-          <img src="./Photos/black.png" alt="black" />
+      <!-- SPECS SECTION -->
+      <section class="specs-section">
+        <img src="./Icons/specsLogo.png" alt="specsImage" />
+        <!-- contatin -->
+        <div class="specs-container">
+          <!-- left contain -->
           <div>
-            <div>
-              <p>Black</p>
-              <p>N299K</p>
+            <div class="bluetooth">
+              <img src="./Icons/bluetooth.png" alt="bluetooth" />
+              <p>Connection</p>
+              <p>Bluetooth v5.2</p>
             </div>
-            <img src="./Icons/shoppingBag.png" alt="shoppingBag" />
-          </div>
-        </div>
-
-        <!-- items 2-->
-        <div>
-          <img src="./Photos/redBlack.png" alt="redBlack" />
-          <div>
-            <div>
-              <p>Red Black</p>
-              <p>N299K</p>
+            <div class="battery">
+              <img src="./Icons/battery.png" alt="battery" />
+              <p>Battery</p>
+              <p>Duration 40h</p>
             </div>
-            <img src="./Icons/shoppingBag.png" alt="shoppingBag" />
-          </div>
-        </div>
-
-        <!-- items 3-->
-        <div>
-          <img src="./Photos/nightBlack.png" alt="Night Black" />
-          <div>
-            <div>
-              <p>Night Black</p>
-              <p>N299K</p>
+            <div class="load">
+              <img src="./Icons/charger.png" alt="charger" />
+              <p>Load</p>
+              <p>Fast Charge 4.2-AAC</p>
             </div>
-            <img src="./Icons/shoppingBag.png" alt="shoppingBag" />
-          </div>
-        </div>
-
-        <!-- items 4-->
-        <div>
-          <img src="./Photos/blue.png" alt="Blue" />
-          <div>
-            <div>
-              <p>Blue</p>
-              <p>N299K</p>
+            <div class="microphone">
+              <img src="./Icons/mic.png" alt="mic" />
+              <p>Microphone</p>
+              <p>Supports Apple Siri and Google</p>
             </div>
-            <img src="./Icons/shoppingBag.png" alt="shoppingBag" />
+          </div>
+          <!-- right contain -->
+          <div>
+            <img src="./Photos/specsImage.png" alt="specsImage" />
           </div>
         </div>
+      </section>
 
-        <!-- items 5-->
+      <!-- CASE SECTION -->
+      <section>
+        <img src="./Icons/caseLogo.png" alt="caseImage" />
+        <!-- case container -->
         <div>
-          <img src="./Photos/twilightGray.png" alt="twilightGray" />
+          <!-- right container -->
           <div>
+            <img src="./Photos/caseImage.png" alt="caseImage" />
+          </div>
+          <!-- left container -->
+          <div>
+            <p>
+              With a comfortable and adaptable case so that you can store it
+              whenever you want, and keep your durability forever.
+            </p>
             <div>
-              <p>twilightGray</p>
-              <p>N299K</p>
+              <img src="./Icons/group.png" alt="infologo" />
+              <p>More Info</p>
             </div>
-            <img src="./Icons/shoppingBag.png" alt="shoppingBag" />
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- FOOTER -->
-    <footer>
-      <!-- logo -->
-      <img src="" alt="" />
-
-      <!-- products -->
-      <ul>
-        <li>Products</li>
-        <li>Headphones</li>
-        <li>Earphones</li>
-        <li>Earbuds</li>
-        <li>Accessories</li>
-      </ul>
-
-      <!-- supports -->
-      <ul>
-        <li>Support</li>
-        <li>Product Help</li>
-        <li>Register</li>
-        <li>Updates</li>
-        <li>Provides</li>
-      </ul>
-
-      <!-- subscrib -->
-      <div>
-        <!-- email sub -->
+      <!-- BUY NOW SECTION -->
+      <section>
+        <!-- left  -->
         <div>
-          <input type="email" />
+          <p>Immense yourself in your music</p>
+          <p>Buy Now, up to 40% off.</p>
           <div>
-            <img src="./Icons/rightArrow.png" alt="rightArrow" />
-            <p>Subscribe</p>
+            <img src="./Icons/shoppingBag.png" alt="shoppingBag" />
+            <p>Buy Now</p>
           </div>
         </div>
-        <!-- social links -->
+        <!-- right -->
         <div>
-          <img src="./Icons/facebook.png" alt="facebook" />
-          <img src="./Icons/twitter.png" alt="twitter" />
-          <img src="./Icons/instagram.png" alt="instagram" />
-          <img src="./Icons/linkedin.png" alt="linkedin" />
+          <img src="./Photos/buyNowSectionImage.png" alt="" />
         </div>
-      </div>
+      </section>
 
-      <!-- top -->
-      <div>
-        <img src="./Icons/upArrow.png" alt="upArrow" />
-      </div>
-    </footer>
+      <!-- PRODUCT SECTION -->
+      <section>
+        <img src="./Icons/productLogo.png" alt="productLogo" />
+        <!-- PRODUCTS CONTAINER -->
+        <div>
+          <!-- items 1-->
+          <div>
+            <img src="./Photos/black.png" alt="black" />
+            <div>
+              <div>
+                <p>Black</p>
+                <p>N299K</p>
+              </div>
+              <img src="./Icons/shoppingBag.png" alt="shoppingBag" />
+            </div>
+          </div>
+
+          <!-- items 2-->
+          <div>
+            <img src="./Photos/redBlack.png" alt="redBlack" />
+            <div>
+              <div>
+                <p>Red Black</p>
+                <p>N299K</p>
+              </div>
+              <img src="./Icons/shoppingBag.png" alt="shoppingBag" />
+            </div>
+          </div>
+
+          <!-- items 3-->
+          <div>
+            <img src="./Photos/nightBlack.png" alt="Night Black" />
+            <div>
+              <div>
+                <p>Night Black</p>
+                <p>N299K</p>
+              </div>
+              <img src="./Icons/shoppingBag.png" alt="shoppingBag" />
+            </div>
+          </div>
+
+          <!-- items 4-->
+          <div>
+            <img src="./Photos/blue.png" alt="Blue" />
+            <div>
+              <div>
+                <p>Blue</p>
+                <p>N299K</p>
+              </div>
+              <img src="./Icons/shoppingBag.png" alt="shoppingBag" />
+            </div>
+          </div>
+
+          <!-- items 5-->
+          <div>
+            <img src="./Photos/twilightGray.png" alt="twilightGray" />
+            <div>
+              <div>
+                <p>twilightGray</p>
+                <p>N299K</p>
+              </div>
+              <img src="./Icons/shoppingBag.png" alt="shoppingBag" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+        <!-- logo -->
+        <img src="" alt="" />
+
+        <!-- products -->
+        <ul>
+          <li>Products</li>
+          <li>Headphones</li>
+          <li>Earphones</li>
+          <li>Earbuds</li>
+          <li>Accessories</li>
+        </ul>
+
+        <!-- supports -->
+        <ul>
+          <li>Support</li>
+          <li>Product Help</li>
+          <li>Register</li>
+          <li>Updates</li>
+          <li>Provides</li>
+        </ul>
+
+        <!-- subscrib -->
+        <div>
+          <!-- email sub -->
+          <div>
+            <input type="email" />
+            <div>
+              <img src="./Icons/rightArrow.png" alt="rightArrow" />
+              <p>Subscribe</p>
+            </div>
+          </div>
+          <!-- social links -->
+          <div>
+            <img src="./Icons/facebook.png" alt="facebook" />
+            <img src="./Icons/twitter.png" alt="twitter" />
+            <img src="./Icons/instagram.png" alt="instagram" />
+            <img src="./Icons/linkedin.png" alt="linkedin" />
+          </div>
+        </div>
+
+        <!-- top -->
+        <div>
+          <img src="./Icons/upArrow.png" alt="upArrow" />
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
