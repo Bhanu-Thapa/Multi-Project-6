@@ -122,6 +122,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 40px;
 }
 
 .specs-container {
@@ -135,7 +136,7 @@ main {
 }
 
 .bluetooth p {
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 .bluetooth :last-child {
@@ -147,7 +148,7 @@ main {
 }
 
 .battery p {
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 .battery :last-child {
@@ -159,7 +160,7 @@ main {
 }
 
 .load p {
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 .load :last-child {
@@ -173,9 +174,119 @@ main {
 }
 
 .microphone p {
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 .microphone :last-child {
   color: #bdc0c2;
+}
+
+/* case-section */
+
+.case-section {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.case-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.right-case-con {
+  width: 220px;
+}
+
+.right-case-con > p {
+  color: #bdc0c2;
+  line-height: 28px;
+}
+
+.info {
+  margin-top: 40px;
+  background-color: #1e1e21;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 160px;
+  padding: 15px 0;
+  border-radius: 7px;
+}
+
+.info img,
+.info p {
+  background-color: transparent;
+}
+
+/* BUY NOW SECTION */
+
+.buy-now-sec {
+  margin-top: 120px;
+  display: flex;
+  background-color: #1e1e21;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.right-buy-sec {
+  width: 300px;
+  background-color: #1e1e21;
+}
+
+.right-buy-sec :first-child {
+  font-size: 23px;
+  font-weight: 600;
+  background-color: #1e1e21;
+}
+
+.discount {
+  background-color: #1e1e21;
+  color: #bdc0c2;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.buy-btn {
+  margin-top: 15px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120px;
+  padding: 12px 10px;
+  border-radius: 7px;
+}
+
+.bag {
+  background-color: #000;
+}
+
+.buy {
+  background-color: transparent;
+}
+
+.buy-now-pic {
+  background-color: transparent;
+}
+
+/* PRODUCT SECTION */
+
+.product-sec {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.product-container {
+  display: flex;
 }
