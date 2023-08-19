@@ -139,13 +139,14 @@ main button {
   color: #6663e8;
 }
 
-.card-btn {
+.card-btn button {
   padding: 15px 30px;
   border-radius: 30px;
   background-color: #6663e8;
   color: #fff;
   font-size: 18px;
   font-weight: 700;
+  border: none;
 }
 
 .card-container > div:nth-child(2) {
@@ -170,4 +171,117 @@ main button {
 
 .card-container > div:nth-child(9) {
   margin-top: 100px;
+}
+
+/* MODERN SECTION */
+
+.modern-sec {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.modern-sec div:first-child {
+  width: 50%;
+}
+
+.modern-sec div:first-child img:first-child {
+  width: 500px;
+
+  position: absolute;
+  top: -8px;
+}
+
+.modern-sec div:first-child img:nth-child(2) {
+  width: 360px;
+  height: 360px;
+  position: relative;
+  left: 98px;
+  bottom: 60px;
+  border-radius: 30px;
+}
+
+.modern-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.modern-details h2 {
+  font-size: 64px;
+}
+
+.modern-details > p {
+  width: 550px;
+  font-size: 20px;
+  color: #585c65;
+}
+
+.modern-details button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: #6663e8;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+}
+
+/* UNIQUE HOUSE SECTION */
+
+.unique-sec {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.unique-details {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.unique-details h2 {
+  font-size: 64px;
+}
+
+.unique-details > p {
+  font-size: 20px;
+  color: #585c65;
+}
+
+.unique-details button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: #6663e8;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+}
+
+.unique-sec div:nth-child(2) {
+  width: 50%;
+}
+
+.unique-sec div:nth-child(2) img:first-child {
+  width: 700px;
+  height: 450px;
+  position: absolute;
+  top: -36px;
+  right: -10px;
+}
+
+.unique-sec div:nth-child(2) img:nth-child(2) {
+  width: 385px;
+  height: 400px;
+  position: relative;
+  left: 223px;
+  bottom: 100px;
+  border-radius: 30px;
 }
