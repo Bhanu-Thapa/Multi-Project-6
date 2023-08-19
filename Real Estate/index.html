@@ -4,18 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Real Estate</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- HEADER -->
     <header>
       <!-- NAVIGATION -->
       <nav>
-        <div><img src="./Icons/Logo.svg" alt="logo" /></div>
-        <ul>
-          <li>Location</li>
-          <li>Blogs</li>
-          <li>Testimonial</li>
-          <li>Contact</li>
+        <div>
+          <img src="./Icons/Logo.svg" alt="logo" />
+        </div>
+        <ul class="nav-bar">
+          <li><a href="">Location</a></li>
+          <li><a href="">Blogs</a></li>
+          <li><a href="">Testimonial</a></li>
+          <li><a href="">Contact</a></li>
         </ul>
       </nav>
       <!-- HORIZONTAL LINE -->
@@ -28,147 +41,168 @@
           Are you looking for amazing Real estate? Don't worry! we got it for
           you
         </p>
-        <div>Learn More</div>
+        <button>Learn More</button>
       </main>
     </header>
 
     <!-- LOGO SECTION -->
-    <section>
-      <img src="" alt="" />
-      <img src="" alt="" />
-      <img src="" alt="" />
-      <img src="" alt="" />
-      <img src="" alt="" />
+    <section class="logo-sec">
+      <img src="./Icons/logoName.svg" alt="logo" />
+      <img src="./Icons/logoName.svg" alt="logo" />
+      <img src="./Icons/logoName.svg" alt="logo" />
+      <img src="./Icons/logoName.svg" alt="logo" />
+      <img src="./Icons/logoName.svg" alt="logo" />
     </section>
 
     <!-- CARD SECTION -->
-    <section>
-      <h2>Our Best Estate, are Modern!</h2>
+    <section class="card-section">
+      <h2 class="card-heading">Our Best Estate, are Modern!</h2>
 
-      <!-- CARD 1  -->
-      <div>
-        <div><img src="./Photos/cardImage1.png" alt="card-img1" /></div>
+      
+      <div class="card-container">
+
+        <!-- CARD 1  -->
         <div>
-          <div>
-            <p>Mixtownia</p>
-            <p>$205,500</p>
+          <div class="card-img">
+            <img src="./Photos/cardImage1.png" alt="card-img1" />
           </div>
-          <div>
-            <p>Detail</p>
+          <div class="card-details-box">
+            <div class="card-details">
+              <p>Mixtownia</p>
+              <p>$205,500</p>
+            </div>
+            <div class="card-btn">
+              <p>Detail</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- CARD 2  -->
-      <div>
-        <div><img src="./Photos/cardImage2.png" alt="card-img2" /></div>
+        <!-- CARD 2  -->
         <div>
-          <div>
-            <p>Mixtownia</p>
-            <p>$205,500</p>
+          <div class="card-img">
+            <img src="./Photos/cardImage2.png" alt="card-img2" />
           </div>
-          <div>
-            <p>Detail</p>
+          <div class="card-details-box">
+            <div class="card-details">
+              <p>Mixtownia</p>
+              <p>$205,500</p>
+            </div>
+            <div class="card-btn">
+              <p>Detail</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- CARD 3  -->
-      <div>
-        <div><img src="./Photos/cardImage3.png" alt="card-img3" /></div>
+        <!-- CARD 3  -->
         <div>
-          <div>
-            <p>Mixtownia</p>
-            <p>$205,500</p>
+          <div class="card-img">
+            <img src="./Photos/cardImage3.png" alt="card-img3" />
           </div>
-          <div>
-            <p>Detail</p>
+          <div class="card-details-box">
+            <div class="card-details">
+              <p>Mixtownia</p>
+              <p>$205,500</p>
+            </div>
+            <div class="card-btn">
+              <p>Detail</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- CARD 4  -->
-      <div>
-        <div><img src="./Photos/cardImage4.png" alt="card-img4" /></div>
+        <!-- CARD 4  -->
         <div>
-          <div>
-            <p>Mixtownia</p>
-            <p>$205,500</p>
+          <div class="card-img">
+            <img src="./Photos/cardImage4.png" alt="card-img4" />
           </div>
-          <div>
-            <p>Detail</p>
+          <div class="card-details-box">
+            <div class="card-details">
+              <p>Mixtownia</p>
+              <p>$205,500</p>
+            </div>
+            <div class="card-btn">
+              <p>Detail</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- CARD 5  -->
-      <div>
-        <div><img src="./Photos/cardImage5.png" alt="card-img5" /></div>
+        <!-- CARD 5  -->
         <div>
-          <div>
-            <p>Mixtownia</p>
-            <p>$205,500</p>
+          <div class="card-img">
+            <img src="./Photos/cardImage5.png" alt="card-img5" />
           </div>
-          <div>
-            <p>Detail</p>
+          <div class="card-details-box">
+            <div class="card-details">
+              <p>Mixtownia</p>
+              <p>$205,500</p>
+            </div>
+            <div class="card-btn">
+              <p>Detail</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- CARD 6  -->
-      <div>
-        <div><img src="./Photos/cardImage6.png" alt="card-img6" /></div>
+        <!-- CARD 6  -->
         <div>
-          <div>
-            <p>Mixtownia</p>
-            <p>$205,500</p>
+          <div class="card-img">
+            <img src="./Photos/cardImage6.png" alt="card-img6" />
           </div>
-          <div>
-            <p>Detail</p>
+          <div class="card-details-box">
+            <div class="card-details">
+              <p>Mixtownia</p>
+              <p>$205,500</p>
+            </div>
+            <div class="card-btn">
+              <p>Detail</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- CARD 7  -->
-      <div>
-        <div><img src="./Photos/cardImage7.png" alt="card-img7" /></div>
+        <!-- CARD 7  -->
         <div>
-          <div>
-            <p>Mixtownia</p>
-            <p>$205,500</p>
+          <div class="card-img">
+            <img src="./Photos/cardImage7.png" alt="card-img7" />
           </div>
-          <div>
-            <p>Detail</p>
+          <div class="card-details-box">
+            <div class="card-details">
+              <p>Mixtownia</p>
+              <p>$205,500</p>
+            </div>
+            <div class="card-btn">
+              <p>Detail</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- CARD 8  -->
-      <div>
-        <div><img src="./Photos/cardImage8.png" alt="card-img8" /></div>
+        <!-- CARD 8  -->
         <div>
-          <div>
-            <p>Mixtownia</p>
-            <p>$205,500</p>
+          <div class="card-img">
+            <img src="./Photos/cardImage8.png" alt="card-img8" />
           </div>
-          <div>
-            <p>Detail</p>
+          <div class="card-details-box">
+            <div class="card-details">
+              <p>Mixtownia</p>
+              <p>$205,500</p>
+            </div>
+            <div class="card-btn">
+              <p>Detail</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- CARD 9  -->
-      <div>
-        <div><img src="./Photos/cardImage9.png" alt="card-img9" /></div>
+        <!-- CARD 9  -->
         <div>
-          <div>
-            <p>Mixtownia</p>
-            <p>$205,500</p>
+          <div class="card-img">
+            <img src="./Photos/cardImage9.png" alt="card-img9" />
           </div>
-          <div>
-            <p>Detail</p>
+          <div class="card-details-box">
+            <div class="card-details">
+              <p>Mixtownia</p>
+              <p>$205,500</p>
+            </div>
+            <div class="card-btn">
+              <p>Detail</p>
+            </div>
           </div>
-        </div>
       </div>
     </section>
 
