@@ -1,0 +1,49 @@
+section {
+  height: 87vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+span {
+  color: #20bc7e;
+}
+
+section h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+section > p {
+  width: 620px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.box {
+  display: flex;
+  gap: 150px;
+}
+
+.box div {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+  width: 200px;
+  height: 100px;
+}
+
+.box div p {
+  font-size: 22px;
+}
+
+.box div p span {
+  font-size: 28px;
+  font-weight: 700;
+}
