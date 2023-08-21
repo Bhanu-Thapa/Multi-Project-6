@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'IBM Plex Sans', sans-serif;
 }
+body {
+  background-color: #f0f4f5;
+}
 
 nav {
   display: flex;
@@ -101,7 +104,7 @@ button {
 }
 
 .main-img img:nth-child(3) {
-  width: 439px;
+  width: 435px;
 }
 
 .main-img img:nth-child(4) {

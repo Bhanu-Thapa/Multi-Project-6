@@ -1,0 +1,61 @@
+section {
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px black;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+form h2 {
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+form label {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+form input {
+  padding: 7px;
+  border: none;
+  outline: none;
+  border-radius: 9px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+form input::placeholder,
+textarea::placeholder {
+  font-size: 14px;
+}
+
+form textarea {
+  outline: none;
+  border: none;
+  margin-top: 5px;
+  font-size: 18px;
+  padding: 5px;
+  resize: none;
+  border-radius: 9px;
+}
+
+form button {
+  margin-top: 20px;
+  background-color: #20bc7e;
+  padding: 9px 0;
+  border: none;
+  border-radius: 9px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
